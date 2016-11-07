@@ -73,7 +73,7 @@ KevinDurant_FG <- c(306,306,587,661,794,711,643,731,849,238)
 DerrickRose_FG <- c(208,208,208,574,672,711,302,0,58,338)
 DwayneWade_FG <- c(699,472,439,854,719,692,416,569,415,509)
 
-#Matrix
+#Field Goals Matrix
 FieldGoals <- rbind(KobeBryant_FG, JoeJohnson_FG, LeBronJames_FG, CarmeloAnthony_FG, DwightHoward_FG, ChrisBosh_FG, ChrisPaul_FG, KevinDurant_FG, DerrickRose_FG, DwayneWade_FG)
 rm(KobeBryant_FG, JoeJohnson_FG, LeBronJames_FG, CarmeloAnthony_FG, DwightHoward_FG, ChrisBosh_FG, ChrisPaul_FG, KevinDurant_FG, DerrickRose_FG, DwayneWade_FG)
 colnames(FieldGoals) <- Seasons
