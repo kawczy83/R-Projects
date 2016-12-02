@@ -1,3 +1,8 @@
+#Shows 2 plots:
+#1st plot shows the states with the highest number of complaints
+#2nd plot shows the amount of ratings that customers have left.
+
+
 comcast <- read.csv('Comcast_Complaints.csv', stringsAsFactors = F)
 
 #Remove columns that aren't needed
