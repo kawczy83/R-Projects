@@ -1,3 +1,4 @@
+#Creates a word cloud made up of complaints made to Comcast within the last 5-6 years.
 #Dataset came from:  https://www.kaggle.com/archaeocharlie/comcastcomplaints
 #read in dataset
 comcastwc <- read.csv('comcast_consumeraffairs_complaints.csv', stringsAsFactors=F)
